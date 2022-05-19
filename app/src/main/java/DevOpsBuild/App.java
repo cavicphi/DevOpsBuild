@@ -21,7 +21,7 @@ public class App {
         IRender render = new Render();
 		IContextBuilder builder = render.newBuilder();
 		builder.width(120).height(20);
-		builder.element(new PseudoText("DevOps"));
+		builder.element(new PseudoText("Hallo Philip"));
 		ICanvas canvas = render.render(builder.build());
 		String s = canvas.getText();
 		System.out.println(s);
